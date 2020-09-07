@@ -61,7 +61,7 @@ python CELL_dataset_split.py
 2. Run the model training with the selected dataset
 
 ```sh
-python CELL_dataset_split.py -d 'BOE'
+python VAT_semiDL_train.py -d 'BOE'
 ```
 
 
