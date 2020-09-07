@@ -40,11 +40,11 @@ Download the dataset from below links and unzip the data files into folder `data
 
 ### Package used
 
- Package            Version
+```sh
  torch              1.6.0+cu101
  scikit-learn       0.21.3
  numpy              1.18.1
-
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -53,6 +53,7 @@ Download the dataset from below links and unzip the data files into folder `data
 
 ```sh
 python BOE_dataset_split.py
+```
 
 ```sh
 python CELL_dataset_split.py
