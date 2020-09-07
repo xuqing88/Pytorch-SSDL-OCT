@@ -25,7 +25,7 @@ The paper: **Automatic Detection of Retinopathy with Optical Coherence Tomograph
 A semi-supervised deep learning method for retinopathy detection with OCT images is proposed. 
 
 ![BOE_result](https://github.com/xuqing88/Pytorch-Semi-supervised-DL-method-for-Retinopathy-Automatic-Detection/blob/master/result/BOE_result.JPG)
-![CELL_result](https://github.com/[xuqing88]/[Pytorch-Semi-supervised-DL-method-for-Retinopathy-Automatic-Detection]/blob/[result]/CELL_result.jpg?raw=true)
+![CELL_result](https://github.com/xuqing88/Pytorch-Semi-supervised-DL-method-for-Retinopathy-Automatic-Detection/blob/master/result/CELL_result.JPG)
 
 
 
