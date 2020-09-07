@@ -36,19 +36,17 @@ To get a local copy and running follow these simple steps.
 
 ### Prerequisites
 
-Download the dataset from below links and unzip the data files into folder 'dataset'.
-* BOE(http://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm)
-* CELL(https://www.kaggle.com/paultimothymooney/kermany2018)
+Download the dataset from below links and unzip the data files into folder `dataset`.
+* [BOE](http://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm)
+* [CELL](https://www.kaggle.com/paultimothymooney/kermany2018)
 
 
 ### Package used
 
- Package              Version
- -------------------- ---------------------
- torch                1.6.0+cu101
- scikit-learn         0.21.3
- numpy                1.18.1
-
+ Package            Version
+ torch              1.6.0+cu101
+ scikit-learn       0.21.3
+ numpy              1.18.1
 
 
 <!-- USAGE EXAMPLES -->
@@ -58,13 +56,15 @@ Download the dataset from below links and unzip the data files into folder 'data
 
 ```sh
 python BOE_dataset_split.py
+
+```sh
 python CELL_dataset_split.py
 ```
+2. Run the model training with the selected dataset
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+```sh
+python CELL_dataset_split.py -d 'BOE'
+```
 
 
 
@@ -74,12 +74,5 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 
