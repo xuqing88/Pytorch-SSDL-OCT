@@ -29,7 +29,7 @@ A semi-supervised deep learning method for retinopathy detection with OCT images
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy and running follow these simple steps.
+To get a local copy and runn following simple steps.
 
 ### Prerequisites
 
